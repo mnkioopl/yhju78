@@ -1,4 +1,5 @@
 # Configuration 3dsmax
+
 import bpy
 
 wm = bpy.context.window_manager
@@ -2448,4 +2449,5 @@ kmi = km.keymap_items.new_modal('SELECT', 'LEFTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('SELECT', 'RIGHTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('BEGIN', 'MIDDLEMOUSE', 'PRESS')
 kmi = km.keymap_items.new_modal('DESELECT', 'MIDDLEMOUSE', 'RELEASE')
+
 
