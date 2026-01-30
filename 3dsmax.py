@@ -7,6 +7,7 @@ wm = bpy.context.window_manager
 kc = wm.keyconfigs.new('3dsmax')
 
 # Map Window
+
 km = kc.keymaps.new('Window', space_type='EMPTY', region_type='WINDOW', modal=False)
 
 kmi = km.keymap_items.new('wm.window_new', 'W', 'PRESS', ctrl=True, alt=True)
@@ -2450,6 +2451,7 @@ kmi = km.keymap_items.new_modal('SELECT', 'LEFTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('SELECT', 'RIGHTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('BEGIN', 'MIDDLEMOUSE', 'PRESS')
 kmi = km.keymap_items.new_modal('DESELECT', 'MIDDLEMOUSE', 'RELEASE')
+
 
 
 
