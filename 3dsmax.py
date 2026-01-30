@@ -13,6 +13,7 @@ km = kc.keymaps.new('Window', space_type='EMPTY', region_type='WINDOW', modal=Fa
 kmi = km.keymap_items.new('wm.window_new', 'W', 'PRESS', ctrl=True, alt=True)
 
 kmi = km.keymap_items.new('wm.read_homefile', 'N', 'PRESS', ctrl=True)
+
 kmi = km.keymap_items.new('wm.save_homefile', 'U', 'PRESS', ctrl=True)
 kmi = km.keymap_items.new('wm.call_menu', 'O', 'PRESS', shift=True, ctrl=True)
 kmi.properties.name = 'INFO_MT_file_open_recent'
@@ -2452,6 +2453,7 @@ kmi = km.keymap_items.new_modal('SELECT', 'LEFTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('SELECT', 'RIGHTMOUSE', 'RELEASE', any=True)
 kmi = km.keymap_items.new_modal('BEGIN', 'MIDDLEMOUSE', 'PRESS')
 kmi = km.keymap_items.new_modal('DESELECT', 'MIDDLEMOUSE', 'RELEASE')
+
 
 
 
